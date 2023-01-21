@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color:  hsl(225, 100%, 94%);
+   width: 100vw;
+   height: 100vh;
+   font-family: 'Red Hat Display', sans-serif;}
+main{
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+.parent{
+    width: 25%;
+    height: 90%;
+    border: 1px ;
+    border-radius: 1rem;
+    display: flex;
+   margin: auto;
+    border-radius: 5px;
+    flex-direction: column;
+}
+#image-container{
+    width: 100%;
+    border: 1px ;
+}
+#image-container img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: flex;
+}
+#flex{
+    width: 100%;
+    border: 6px solid blue;
+    border: 1px ;
+    height: 100%;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: white;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+#flex h2{
+    text-align: center;
+color: hsl(223, 47%, 23%);
+padding: 1rem;
+}
+#flex p{
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+}
+.flex{
+    width: 17rem;
+    height: 4rem;
+    border: 1px ;
+    border-radius: 6px;
+    margin: auto;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+}
+.flex img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.flex h5{
+    padding: 12px;
+    
+}
+.flex h5 span{
+    font-weight: lighter;
+    color: hsl(224, 23%, 55%);
+
+}
+ .flex a{
+    color: hsl(224, 23%, 55%);
+ }
+ .flex div{
+    color: blue;
+    padding-top: 1rem;
+    padding-left: 3rem;
+ }
+button{
+    width: 17rem;
+    height: 2.5rem;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 3px 26px 0px rgba(105,104,105,1);
+    -moz-box-shadow: 2px 3px 26px 0px rgba(105,104,105,1);
+    box-shadow: 2px 3px 26px 0px rgba(105,104,105,1);
+}
+button:hover{
+    background-color: hsl(245, 80%, 61%);
+}
+#order{
+   text-align: center;
+    color: hsl(224, 23%, 55%);
+    padding: 1rem;
+    cursor: pointer;
+}
+#btn{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+}
